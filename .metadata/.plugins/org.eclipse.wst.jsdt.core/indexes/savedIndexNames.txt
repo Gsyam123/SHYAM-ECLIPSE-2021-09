@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+C:\Users\Shyam\SHYAM ECLIPSE 2021-09\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

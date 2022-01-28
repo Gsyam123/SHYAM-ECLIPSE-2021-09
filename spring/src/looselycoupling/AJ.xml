@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="asim" class="looselycoupling.Airtelsim" />
+	<bean id="jsim" class="looselycoupling.Jiosim" />
+	<bean id="mobilewithairtel" class="looselycoupling.Mobile">
+		<property name="sim" ref="asim" />
+	</bean>
+	<bean id="mobilewithjio" class="looselycoupling.Mobile">
+		<property name="sim" ref="jsim" />
+	</bean>
+	<bean id="mobile" class="looselycoupling.Mobile">
+		<property name="sim" ref="jsim" />
+	</bean>
+</beans>
+	
+	
+	

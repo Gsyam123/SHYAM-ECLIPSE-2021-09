@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="bike" class="spring.Bike" >
+	<property name="model" value="Honda" />
+	<property name="cc" value="1500" />
+	<property name="colour" value="Green" />
+</bean>
+</beans>
+	

@@ -1,0 +1,14 @@
+package com.entity1;
+
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "CoEmpTable")
+@DiscriminatorValue("contractemployee")
+public class ContractEmp extends Emp {
+	private int payperhour;
+	private int contractduration;
+
+}

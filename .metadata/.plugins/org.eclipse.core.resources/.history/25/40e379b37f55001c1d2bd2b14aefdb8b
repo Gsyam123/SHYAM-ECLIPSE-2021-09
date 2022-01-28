@@ -1,0 +1,16 @@
+
+public class Sample1 {
+int i=10;
+static int j=50;
+public static void main(String[]args) {
+	//int j=100; //local variable
+	//System.out.println(j);
+	//System.out.println(Sample1.j);
+	//System.out.println(i);
+	//System.out.println(Sample1.i);
+	Sample s=new Sample();
+	//  System.out.println(s.i);
+	System.out.println(s.j);
+	
+}
+}
